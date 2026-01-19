@@ -19,7 +19,7 @@ export async function POST(request: Request) {
       password: string;
       status?: string;
       user?: string;
-      policy?: string;
+      policy?: string | null;
       print?: boolean;
     }> = [];
 
